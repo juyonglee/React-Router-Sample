@@ -53,6 +53,7 @@ export default function Contact() {
                 action="destroy"
                 onSubmit={(event) => {
                   if (
+                      // eslint-disable-next-line no-restricted-globals
                       !confirm(
                           "Please confirm you want to delete this record."
                       )
