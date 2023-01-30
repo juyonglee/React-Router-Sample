@@ -15,6 +15,7 @@ import Index from "./routes/index";
 
 const router = createBrowserRouter([
   {
+    basename: `${process.env.PUBLIC_URL}`,
     path: "/",
     element: <Root/>,
     errorElement: <ErrorPage/>,
