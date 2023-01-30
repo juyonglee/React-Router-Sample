@@ -15,7 +15,6 @@ import Index from "./routes/index";
 
 const router = createBrowserRouter([
   {
-    basename: `${process.env.PUBLIC_URL}`,
     path: "/",
     element: <Root/>,
     errorElement: <ErrorPage/>,
@@ -50,7 +49,9 @@ const router = createBrowserRouter([
       }
     ]
   }
-]);
+], {
+  basename: `${process.env.PUBLIC_URL}`
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
