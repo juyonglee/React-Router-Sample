@@ -2,7 +2,7 @@
   "name": "react-router-sample",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://juyonglee\n.github.io/React-Router-Sample",
+  "homepage": "https://juyonglee.github.io/React-Router-Sample",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
